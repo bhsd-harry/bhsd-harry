@@ -24,6 +24,7 @@ jobs:
             -bhsd-harry/codemirror-mediawiki
             -bhsd-harry/types-mediawiki
             -bhsd-harry/mediawiki
+            -bhsd-harry/PPE
 
             # Skip repositories matching a given pattern
             inpageedit/*
