@@ -31,5 +31,5 @@ jobs:
             # Include back a previously skipped repository
           commits_authoring: bhsd, bhsd-harry
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 60
+          plugin_languages_indepth: yes
           plugin_languages_details: percentage
