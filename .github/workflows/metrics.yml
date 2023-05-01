@@ -15,7 +15,7 @@ jobs:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS }}
           base: ""
-          repositories_affiliations: owner, organization_member
+          repositories_affiliations: organization_member
           repositories_skipped: |
             @use.patterns
 
