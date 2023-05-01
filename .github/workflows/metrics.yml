@@ -26,6 +26,7 @@ jobs:
             -bhsd-harry/PPE
 
             # Skip repositories matching a given pattern
+            inpageedit/*
 
             # Include back a previously skipped repository
           commits_authoring: bhsd, bhsd-harry
