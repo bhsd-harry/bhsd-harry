@@ -15,9 +15,11 @@ jobs:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS }}
           base: ""
-          repositories_affiliations: organization_member
+          repositories_affiliations: owner, organization_member
           config_timezone: America/Los_Angeles
           plugin_languages: yes
           plugin_languages_skipped: bhsd-harry/codemirror-mediawiki
+            bhsd-harry/types-mediawiki
+            bhsd-harry/mediawiki
           plugin_languages_analysis_timeout: 60
           plugin_languages_details: percentage
