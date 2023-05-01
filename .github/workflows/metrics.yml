@@ -20,20 +20,16 @@ jobs:
           repositories_skipped: |
             @use.patterns
 
-            # Skip a specific repository (both patterns are equivalent)
+            # Skip a specific repository
             -bhsd-harry/codemirror-mediawiki
             -bhsd-harry/types-mediawiki
             -bhsd-harry/mediawiki
 
             # Skip repositories matching a given pattern
             inpageedit/*
-            LLWiki/*
 
             # Include back a previously skipped repository
-            +LLWiki/MinervaMenus
-            +LLWiki/LLWikiMessages
-            +LLWiki/ComboBox
-            +LLWiki/FrontEnd
+          commits_authoring: bhsd, bhsd-harry
           plugin_languages: yes
           plugin_languages_analysis_timeout: 60
           plugin_languages_details: percentage
