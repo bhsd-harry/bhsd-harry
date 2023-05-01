@@ -19,7 +19,6 @@ jobs:
             bhsd-harry/codemirror-mediawiki
             bhsd-harry/types-mediawiki
             bhsd-harry/mediawiki
-            bhsd-harry/PPE
           commits_authoring: bhsd, bhsd-harry
           plugin_languages: yes
           plugin_languages_indepth: yes
@@ -29,3 +28,4 @@ jobs:
           plugin_languages_recent_load: 1000
           plugin_languages_recent_days: 365
           plugin_languages_indepth_custom: LLWiki/MinervaMenus, LLWiki/ComboBox
+          plugin_languages_ignored: Jupyter Notebook
