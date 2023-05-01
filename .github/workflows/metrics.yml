@@ -24,4 +24,8 @@ jobs:
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: percentage
-          plugin_languages_indepth_custom: LLWiki/MinervaMenus, LLWiki/ComboBox, LLWiki/FrontEnd
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_sections: recently-used
+          plugin_languages_recent_load: 1000
+          plugin_languages_recent_days: 365
+          plugin_languages_indepth_custom: LLWiki/MinervaMenus, LLWiki/ComboBox
