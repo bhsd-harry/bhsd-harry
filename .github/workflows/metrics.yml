@@ -15,20 +15,11 @@ jobs:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS }}
           base: ""
-          repositories_affiliations: organization_member
           repositories_skipped: |
-            @use.patterns
-
-            # Skip a specific repository
-            -bhsd-harry/codemirror-mediawiki
-            -bhsd-harry/types-mediawiki
-            -bhsd-harry/mediawiki
-            -bhsd-harry/PPE
-
-            # Skip repositories matching a given pattern
-            inpageedit/*
-
-            # Include back a previously skipped repository
+            bhsd-harry/codemirror-mediawiki
+            bhsd-harry/types-mediawiki
+            bhsd-harry/mediawiki
+            bhsd-harry/PPE
           commits_authoring: bhsd, bhsd-harry
           plugin_languages: yes
           plugin_languages_indepth: yes
