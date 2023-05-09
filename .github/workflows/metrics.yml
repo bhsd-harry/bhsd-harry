@@ -10,7 +10,7 @@ jobs:
       contents: write
     steps:
       - name: Most used
-        uses: bhsd-harry/metrics@master
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS }}
@@ -21,5 +21,4 @@ jobs:
             bhsd-harry/mediawiki
           plugin_languages: yes
           plugin_languages_details: percentage
-          plugin_languages_indepth_custom: LLWiki/MinervaMenus, LLWiki/ComboBox
           plugin_languages_ignored: Jupyter Notebook
