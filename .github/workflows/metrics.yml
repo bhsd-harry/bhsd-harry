@@ -19,5 +19,6 @@ jobs:
             bhsd-harry/codemirror-mediawiki
             bhsd-harry/types-mediawiki
             bhsd-harry/mediawiki
+            bhsd-harry/PPE
           plugin_languages: yes
           plugin_languages_details: percentage
