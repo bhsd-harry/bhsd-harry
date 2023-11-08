@@ -16,6 +16,7 @@ jobs:
           token: ${{ secrets.METRICS }}
           base: ""
           repositories_skipped: |
+            bhsd-harry/wikiparser-typescript
             bhsd-harry/codemirror-mediawiki
             bhsd-harry/types-mediawiki
             bhsd-harry/mediawiki
