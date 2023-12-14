@@ -10,7 +10,7 @@ jobs:
       contents: write
     steps:
       - name: Most used
-        uses: bhsd-harry/metrics@master
+        uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.languages.svg
           token: ${{ secrets.METRICS }}
@@ -20,7 +20,5 @@ jobs:
             bhsd-harry/types-mediawiki
             bhsd-harry/mediawiki
             bhsd-harry/PPE
-          plugin_languages_indepth_custom: |
-            LLWiki/ComboBox
           plugin_languages: yes
           plugin_languages_details: percentage
