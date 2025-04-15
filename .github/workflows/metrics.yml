@@ -18,6 +18,8 @@ jobs:
           repositories_skipped: |
             bhsd-harry/wikiparser-typescript
             bhsd-harry/types-mediawiki
+            bhsd-harry/eslint-plugin-unicorn
+            bhsd-harry/eslint-plugin-jsdoc
             bhsd-harry/mediawiki
             bhsd-harry/PPE
           plugin_languages: yes
