@@ -22,5 +22,7 @@ jobs:
             bhsd-harry/eslint-plugin-jsdoc
             bhsd-harry/mediawiki
             bhsd-harry/PPE
+            bhsd-harry/eslint-browserify
+            bhsd-harry/stylelint-browserify
           plugin_languages: yes
           plugin_languages_details: percentage
