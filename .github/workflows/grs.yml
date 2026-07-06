@@ -23,7 +23,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&exclude_repo=wikiparser-typescript,eslint-browserify,stylelint-browserify&theme=transparent
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=4&exclude_repo=wikiparser-typescript,eslint-browserify,stylelint-browserify&theme=transparent
           path: top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
