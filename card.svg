@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" width="360" height="120" fill="none" role="img">
+  <defs>
+    <linearGradient id="badgeGradient" x1="120" y1="78" x2="198" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f8cff"/>
+      <stop offset="100%" stop-color="#1f5eff"/>
+    </linearGradient>
+    <filter id="badgeShadow" x="116" y="74" width="86" height="26" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="356" height="116" rx="10" fill="#ffffff00" stroke="#e4e2e2" stroke-opacity="1"/>
+  <g transform="translate(22, 18)">
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/CTA2026.png/250px-CTA2026.png" width="80" height="80"/>
+  </g>
+  <text x="119" y="39" fill="#006aff" font-family="-apple-system,Helvetica,Arial" font-size="19" font-weight="bold" letter-spacing="-0.3">Coolest Tool Award 2026</text>
+  <text x="119" y="64" fill="#417e87" font-family="-apple-system,Helvetica,Arial" font-size="13" font-weight="bold">Wikimedia</text>
+  <rect x="119" y="76" width="78" height="18" rx="9" fill="url(#badgeGradient)" stroke="#ffffff" stroke-opacity="0.28" filter="url(#badgeShadow)"/>
+  <text x="128" y="88.5" fill="#ffffff" font-family="-apple-system,Helvetica,Arial" font-size="10" font-weight="bold" letter-spacing="0.15">CodeMirror</text>
+</svg>
